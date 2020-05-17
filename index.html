@@ -27,13 +27,13 @@
         
                 var output = Math.round(BMI * 100) / 100
                 if (output < 18.5)
-                    document.getElementById("comment").innerText = "Underweight";
+                    document.getElementById("comment").innerText = "Manjak tjelesne težine";
                 else if (output >= 18.5 && output <= 25)
-                    document.getElementById("comment").innerText = "Normal";
+                    document.getElementById("comment").innerText = "Normalno";
                 else if (output >= 25 && output <= 30)
-                    document.getElementById("comment").innerText = "Obese";
+                    document.getElementById("comment").innerText = "Pretilo";
                 else if (output > 30)
-                    document.getElementById("comment").innerText = "Overweight";
+                    document.getElementById("comment").innerText = "Prekomjerna težina";
                 // document.getElementById("answer").value = output; 
             }
         </script>
