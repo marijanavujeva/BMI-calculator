@@ -36,6 +36,6 @@
                     document.getElementById("comment").innerText = "Overweight";
                 // document.getElementById("answer").value = output; 
             }
-        </script>`enter code here`
+        </script>
          </head>
          
